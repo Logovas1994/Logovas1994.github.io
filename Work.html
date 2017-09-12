@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <script type="text/javascript">
+        <!--//<![CDATA[
+        function w_h(){
+            var getw_h = document.getElementById("w_h");
+            if (getw_h != null || getw_h != undefined) {
+                width=document.body.parentElement.clientWidth;
+                height=document.body.parentElement.clientHeight;
+                getw_h.innerHTML =  " "+width+"  &#215; "+ ""+height+"";
+            } else {
+                return false;
+            }
+        };
+        window.onresize = function(){
+            var getw_h = document.getElementById("w_h");
+
+            if (getw_h != null || getw_h != undefined) {
+                width=document.body.parentElement.clientWidth;
+                height=document.body.parentElement.clientHeight;
+                getw_h.innerHTML =  " "+width+"  &#215; "+ ""+height+"";
+            } else {
+                return false;
+            }
+        };
+        $(document).ready(function(){
+            w_h();
+        })
+        //]]>-->
+    </script>
+
+    <title>Redux</title>
+
+    <link href="CSS/Style.css" rel="stylesheet">
+    <link href="CSS/WorkStyle.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <script src="JS/jquery-1.10.2.min.js"></script>
+    <script src="JS/lightbox-2.6.min.js"></script>
+    <link href="CSS/CSSGallery/lightbox.css" rel="stylesheet" />
+
+    <link rel="icon" href="image/man.ico" type="images/x-icon">
+</head>
+<body class="bodywork">
+
+<div class="headerwork">
+    <div class="headerfonwork">
+
+
+        <div class="logo"></div>
+        <div class="menu">
+            <ul class="main-menu">
+                <li><a onclick="fon()" href="index.html">Главная</a></li>
+                <li><a href="About.html">О компании</a></li>
+                <li><a  href="Production.html">Продукция</a></li>
+                <li><a id="work" href="Work.html">Наши работы</a></li>
+                <li><a  href="Contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div class="contentwork">
+
+    <div class="gallery" id="englishcurtains">
+        <h1>Английские шторы</h1>
+        <div class="galleryType" >
+            <div class="galleryTypeImg">
+                <a href="image/curtains1.jpg" data-lightbox="image-group" title="Описание изображения 1"><img class="imgsmall" src="image/curtains1.jpg"></a>
+            </div>
+            <div class="galleryTypeText"><p>Квартира в Санкт-Петербурге. Аккуратные короткие шторы в английском стиле, подчёркивающие утончённость светлой кухни.</p></div>
+        </div>
+        <div class="galleryType">
+            <div class="galleryTypeImg">
+                <a href="image/curtains2.jpg" data-lightbox="image-group" title="Описание изображения 2"><img class="imgsmall" src="image/curtains2.jpg"></a>
+            </div>
+            <div class="galleryTypeText"><p>Квартира в Москве. Спальная комната, дополненная изысканными текстильными изделиями. Шторы в английском стиле создают тёплый уют.</p></div>
+        </div>
+        <div class="galleryType">
+            <div class="galleryTypeImg">
+                <a href="image/curtains3.jpg" data-lightbox="image-group" title="Описание изображения 3"><img class="imgsmall" src="image/curtains3.jpg"></a>
+            </div>
+            <div class="galleryTypeText"><p>Загородный дом в Подмосковье. Ванная комната в мансардном помещении</p></div>
+        </div>
+        <div class="galleryType">
+            <div class="galleryTypeImg">
+                <a href="image/curtains4.jpg" data-lightbox="image-group" title="Описание изображения 1"><img class="imgsmall" src="image/curtains4.jpg"></a>
+            </div>
+            <div class="galleryTypeText"><p>Загородный дом в окрестностях Санкт-Петербурга. Выход на задний двор.</p></div>
+        </div>
+    </div>
+
+    <div class="gallery" id="romecurtains">
+        <h1>Римские шторы</h1>
+        <div class="galleryType" >
+            <div class="galleryTypeImg">
+                <a href="image/romecurtains1.jpg" data-lightbox="image-group1" title="Описание изображения 1"><img class="imgsmall" src="image/romecurtains1.jpg"></a>
+            </div>
+            <div class="galleryTypeText"><p>Квартира в Санкт-Петербурге. Аккуратные короткие шторы в английском стиле, подчёркивающие утончённость светлой кухни.</p></div>
+        </div>
+        <div class="galleryType">
+            <div class="galleryTypeImg">
+                <a href="image/romecurtains2.jpg" data-lightbox="image-group1" title="Описание изображения 2"><img class="imgsmall" src="image/romecurtains2.jpg"></a>
+            </div>
+            <div class="galleryTypeText"><p>Квартира в Москве. Спальная комната, дополненная изысканными текстильными изделиями. Шторы в английском стиле создают тёплый уют.</p></div>
+        </div>
+        <div class="galleryType">
+            <div class="galleryTypeImg">
+                <a href="image/romecurtains3.jpg" data-lightbox="image-group1" title="Описание изображения 3"><img class="imgsmall" src="image/romecurtains3.jpg"></a>
+            </div>
+            <div class="galleryTypeText"><p>Загородный дом в Подмосковье. Ванная комната в мансардном помещении</p></div>
+        </div>
+        <div class="galleryType">
+            <div class="galleryTypeImg">
+                <a href="image/romecurtains4.jpg" data-lightbox="image-group1" title="Описание изображения 1"><img class="imgsmall" src="image/romecurtains4.jpg"></a>
+            </div>
+            <div class="galleryTypeText"><p>Загородный дом в окрестностях Санкт-Петербурга. Выход на задний двор.</p></div>
+        </div>
+    </div>
+
+</div>
+<div class="footerwork">
+
+        <div class="logofooter"></div>
+        <div class="address">Санкт-Петербург, наб. канала Грибоедова 5, оф. 13.<br>+7 978 15 15 633</div>
+
+
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

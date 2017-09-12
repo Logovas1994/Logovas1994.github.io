@@ -1,0 +1,142 @@
+/*БОДИ*/
+.bodyProduction {
+    margin: 0;
+    height: auto !important;
+    max-height: 2000px;
+    min-width: 900px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*ХЕДЕР*/
+.headerProduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 100px;
+    width: 100%;
+    background-image: url(../image/headerfon.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.headerfonProduction {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color: rgba(0, 0, 0, 0.41);
+}
+/*КОНТЕНТ*/
+.contentProduction{
+    height: 81.6%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebebeb;
+    padding-bottom: 100px;
+}
+h1{
+    padding-left: 2%;
+    padding-right: 84%;
+    padding-bottom: 5px;
+    margin: 0;
+    font-size: 22px;
+}
+h2{
+    font-size: 18px;
+    text-align: left;
+}
+.curtains{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 900px;
+    height: 630px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.curtainsElem{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+    width: 30%;
+    height: 90%;
+}
+.curtainsElemHref>input{
+    width: 150px;
+    height: 30px;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgba(118,83,186,1);
+}
+.curtainsElemImg{
+    width: 100%;
+    height: 40%;
+    background-size: cover;
+    border: solid 0.5px #cdcdcd;
+    border-radius: 3px;
+
+}
+.curtainsElemText{
+    width: 100%;
+    height: 55%;
+    font-size: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.curtainsElemText>p{
+    padding: 0 10px;
+    margin: 0;
+    text-align: center;
+
+}
+.curtainsElemText>h2{
+    padding: 10px 10px;
+    margin: 0;
+}
+.curtainsElemHref{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 5%;
+
+}
+.border{
+    width: 900px;
+    border-bottom: 0.5px dotted rgba(118,83,186,1);
+}
+.button{
+    width: 150px;
+    height: 30px;
+    margin: 0 !important;
+    padding: 0 !important;
+    background-color: rgba(118,83,186,1);
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+/*ФУУТЕР*/
+.footerProduction{
+    background-color: rgba(0, 0, 0, 0.77);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 15px ;
+    color: white;
+}

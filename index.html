@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <script type="text/javascript">
+        <!--//<![CDATA[
+        function w_h(){
+            var getw_h = document.getElementById("w_h");
+            if (getw_h != null || getw_h != undefined) {
+                width=document.body.parentElement.clientWidth;
+                height=document.body.parentElement.clientHeight;
+                getw_h.innerHTML =  " "+width+"  &#215; "+ ""+height+"";
+            } else {
+                return false;
+            }
+        };
+        window.onresize = function(){
+            var getw_h = document.getElementById("w_h");
+
+            if (getw_h != null || getw_h != undefined) {
+                width=document.body.parentElement.clientWidth;
+                height=document.body.parentElement.clientHeight;
+                getw_h.innerHTML =  " "+width+"  &#215; "+ ""+height+"";
+            } else {
+                return false;
+            }
+        };
+        $(document).ready(function(){
+            w_h();
+        })
+        //]]>-->
+    </script>
+
+    <title>Redux</title>
+
+    <link href="CSS/Style.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <link rel="icon" href="image/man.ico" type="images/x-icon">
+</head>
+<body>
+<div class="w_h"><span id="w_h"></span></div>
+<div class="header">
+    <div class="headerfon">
+
+
+        <div class="logo"></div>
+        <div class="menu">
+            <ul class="main-menu">
+                <li><a id="mainpage" href="index.html">Главная</a></li>
+                <li><a href="About.html">О компании</a></li>
+                <li><a href="Production.html">Продукция</a></li>
+                <li><a href="Work.html">Наши работы</a></li>
+                <li><a href="Contact.html">Контакты</a></li>
+                </ul>
+        </div>
+    </div>
+
+</div>
+<div class="content">
+    <div class="head">Дизайн-студия REDUX</div>
+    <div class="image"></div>
+    <div class="frame">
+        <div class="text">
+            REDUX — команда российских профессионалов, успешно решающая задачи
+            в области архитектурного дизайна в России и Европе в течении 10 лет. Реализованные проекты ICON
+            design studio включают в себя: отели, рестораны, кафе, торговые и бизнес-центры премиум класса,
+            а так же многочисленные жилые интерьеры от богатой английской классики до современного европейского
+            стиля..</div>
+    </div>
+    <div class="frame">
+        <div class="text">
+            Сотрудничая с Redux, Вы получаете уникальный профессионализм и работоспособность нашей команды,
+            высочайший уровень проектной культуры, строгое соблюдение сроков и иных договоренностей,
+            непременное доведение проектов до блестящего воплощения.</div>
+    </div>
+
+    <div class="button">
+        <a href="About.html"><input type="button" value="Примеры" ></a>
+    </div>
+</div>
+<div class="footer">
+        <div class="logofooter"></div>
+        <div class="address">Санкт-Петербург, наб. канала Грибоедова 5, оф. 13.<br>+7 978 15 15 633</div>
+</div>
+</body>
+</html>

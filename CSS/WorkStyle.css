@@ -1,0 +1,128 @@
+/*БОДИ*/
+.bodywork {
+    margin: 0;
+    height: auto !important;
+    max-height: 2000px;
+    min-width: 900px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*ХЕДЕР*/
+.headerwork {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+    height: 100px;
+    width: 100%;
+    background-image: url(../image/headerfon.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.headerfonwork {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color: rgba(0, 0, 0, 0.41);
+}
+
+/*КОНТЕНТ*/
+.contentwork {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #ebebeb;
+    padding-bottom: 100px;
+
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    background-color: #ebebeb;
+    height: auto;
+    width: 93%;
+    margin: 0;
+    overflow: hidden;
+    border-bottom: 0.5px dotted rgba(118,83,186,1);
+}
+.galleryType{
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+}
+.galleryTypeImg{
+    width: 400px;
+    height: 300px;
+
+}
+.galleryTypeText{
+    width: 100%;
+    height: 45%;
+}
+.gallery>h1{
+    padding-left: 2%;
+
+    font-size: 22px;
+    text-align: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    align-self: flex-start;
+    width: inherit;
+}
+.galleryTypeText>p{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 5px 10px;
+}
+.grid-item img{
+    border: solid 0.5px #cdcdcd;
+    border-radius: 3px;
+}
+/*галлерея увеличенная */
+.imagecontainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.button:hover{
+   background-color: black;
+}
+.imgsmall{
+    width: 100%;
+    height: 100%;
+    border: solid 0.5px #cdcdcd;
+    border-radius: 3px;
+}
+.imgsmall:hover{
+    opacity: 0.7;
+}
+.gallery>a{
+    margin: 1%;
+}
+
+/*ФУТЕР*/
+.footerwork{
+    background-color: rgba(0, 0, 0, 0.77);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 15px ;
+    color: white;
+}
