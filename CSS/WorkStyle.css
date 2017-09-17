@@ -49,9 +49,14 @@
     background-color: #ebebeb;
     height: auto;
     width: 93%;
-    margin: 0;
+    margin-top: 1.5%;
     overflow: hidden;
+
+}
+.galleryBorder{
+    width: 100%;
     border-bottom: 0.5px dotted rgba(118,83,186,1);
+
 }
 .galleryType{
     margin-left: 20px;
