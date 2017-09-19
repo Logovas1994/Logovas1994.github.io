@@ -40,26 +40,41 @@
 
     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/swiper.min.css">
 
     <link rel="icon" href="image/man.ico" type="images/x-icon">
 </head>
 <body>
 <div class="w_h"><span id="w_h"></span></div>
-<div class="header">
-    <div class="headerfon">
-        <div class="logo"></div>
-        <div class="menu">
-            <ul class="main-menu">
-                <li><a id="mainpage" href="index.html">Главная</a></li>
-                <li><a href="About.html">О компании</a></li>
-                <li><a href="Production.html">Продукция</a></li>
-                <li><a href="Work.html">Наши работы</a></li>
-                <li><a href="Contact.html">Контакты</a></li>
-                </ul>
-        </div>
-    </div>
 
+<script src="JS/swiper.min.js"></script>
+
+<div class="headerfon">
+    <div class="logo"></div>
+    <div class="menu">
+        <ul class="main-menu">
+            <li><a id="mainpage" href="index.html">Главная</a></li>
+            <li><a href="About.html">О компании</a></li>
+            <li><a href="Production.html">Продукция</a></li>
+            <li><a href="Work.html">Наши работы</a></li>
+            <li><a href="Contact.html">Контакты</a></li>
+        </ul>
+    </div>
 </div>
+
+<div class="swiper-container header">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide" ><div class="leftImg img1left"></div> <div class="centerImg img1center"><span>Идея хорошего дизайна заключается в том, чтобы заставить остальных дизайнеров почувствовать себя идиотами, потому что это не их идея.</span></div> <div class="rightImg img1right"></div></div>
+        <div class="swiper-slide" ><div class="leftImg img2left"></div> <div class="centerImg img2center"><span class="white">В хорошем дизайне функциональность всегда первична, независимо от форм. Но она не должна угнетать эмоции.</span></div> <div class="rightImg img2right"></div></div>
+        <div class="swiper-slide" ><div class="leftImg img3left"></div> <div class="centerImg img3center"><span class="white">Дизайн не столько профессия, сколько отношение к жизни.</span></div> <div class="rightImg img3right"></div></div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+    <!-- Add Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
+
 <div class="content">
     <div class="head">Дизайн-студия REDUX</div>
     <div class="image"></div>
@@ -86,5 +101,18 @@
         <div class="logofooter"></div>
         <div class="address">Санкт-Петербург, наб. канала Грибоедова 5, оф. 13.<br>+7 978 15 15 633</div>
 </div>
+
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 8500,
+        autoplayDisableOnInteraction: false
+    });
+</script>
 </body>
 </html>
