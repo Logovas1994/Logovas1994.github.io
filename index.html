@@ -47,7 +47,6 @@
 <body>
 <div class="w_h"><span id="w_h"></span></div>
 
-<script src="JS/swiper.min.js"></script>
 
 <div class="headerfon">
     <div class="logo"></div>
@@ -65,7 +64,7 @@
 <div class="swiper-container header">
     <div class="swiper-wrapper">
         <div class="swiper-slide" ><div class="leftImg img1left"></div> <div class="centerImg img1center"><span>Идея хорошего дизайна заключается в том, чтобы заставить остальных дизайнеров почувствовать себя идиотами, потому что это не их идея.</span></div> <div class="rightImg img1right"></div></div>
-        <div class="swiper-slide" ><div class="leftImg img2left"></div> <div class="centerImg img2center"><span class="white">В хорошем дизайне функциональность всегда первична, независимо от форм. Но она не должна угнетать эмоции.</span></div> <div class="rightImg img2right"></div></div>
+        <div class="swiper-slide" > <div class="leftImg img2left"></div> <div class="centerImg img2center"><span class="white">В хорошем дизайне функциональность всегда первична, независимо от форм. Но она не должна угнетать эмоции.</span></div> <div class="rightImg img2right"></div></div>
         <div class="swiper-slide" ><div class="leftImg img3left"></div> <div class="centerImg img3center"><span class="white">Дизайн не столько профессия, сколько отношение к жизни.</span></div> <div class="rightImg img3right"></div></div>
     </div>
     <!-- Add Pagination -->
@@ -74,9 +73,12 @@
     <div class="swiper-button-next"></div>
     <div class="swiper-button-prev"></div>
 </div>
+<!--<div class="frametext">!-->
 
 <div class="content">
     <div class="head">Дизайн-студия REDUX</div>
+    <div class="contentBox1"><div class="contentBox1inside"><a href="Work.html">Наши работы</a></div> </div>
+    <div class="contentBox2"><div class="contentBox2inside"><a href="Production.html">Продукция</a></div> </div>
     <div class="image"></div>
     <div class="frame">
         <div class="text">
@@ -94,7 +96,7 @@
     </div>
 
     <div class="button">
-        <a href="About.html"><input type="button" value="Примеры" ></a>
+        <a href="About.html"><input type="button" value="Подробнее" ></a>
     </div>
 </div>
 <div class="footer">
@@ -102,16 +104,16 @@
         <div class="address">Санкт-Петербург, наб. канала Грибоедова 5, оф. 13.<br>+7 978 15 15 633</div>
 </div>
 
+<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+<script src="JS/swiper.jquery.min.js"></script>
 <script>
     var swiper = new Swiper('.swiper-container', {
+        loop: true,
         pagination: '.swiper-pagination',
+        paginationClickable: true,
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
-        paginationClickable: true,
-        spaceBetween: 30,
-        centeredSlides: true,
-        autoplay: 8500,
-        autoplayDisableOnInteraction: false
+        autoplay: 6500
     });
 </script>
 </body>

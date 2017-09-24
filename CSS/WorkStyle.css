@@ -3,7 +3,7 @@
     margin: 0;
     height: auto !important;
     max-height: 2000px;
-    min-width: 900px;
+    min-width: 1280px;
     font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -32,45 +32,94 @@
 .contentwork {
     height: auto;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
     background-color: #ebebeb;
     padding-bottom: 100px;
+}
+.menuWork{
+    width: 280px;
+    height: 500px;
 
+
+}
+.menuWork>ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.menuWork>ul>li>a{
+    border: solid 0.5px #cdcdcd;
+    border-radius: 3px;
+    padding-top: 10px;
+}
+.menuWork>ul>li>a,.menuWork>ul>li>ul>li>a{
+    height: 30px;
+    width: inherit;
+    display: block;
+    font-size: 16px;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+.menuWork>ul>li>a:hover,.menuWork>ul>li>ul>li>a:hover{
+    background-color: rgba(118,83,186,1);
+    -webkit-transition: background-color 1s ease;
+    -moz-transition: background-color 1s ease;
+    -o-transition: background-color 1s ease;
+    -ms-transition: background-color 1s ease;
+    transition: background-color 1s ease;
+    cursor: pointer;
+    color: white;
+}
+.menuWorkContent{
+    width: 1000px;
+}
+#curtains{
+    background-color: rgba(118,83,186,1);
+    color: white;
+}
+#carnice{
+    background-color: rgba(118,83,186,1);
+    color: white;
+}
+#textile{
+    background-color: rgba(118,83,186,1);
+    color: white;
 }
 .gallery{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     align-content: flex-start;
     background-color: #ebebeb;
     height: auto;
-    width: 93%;
+    width: 1000px;
     margin-top: 1.5%;
     overflow: hidden;
-
 }
 .galleryBorder{
-    width: 100%;
-    border-bottom: 0.5px dotted rgba(118,83,186,1);
+
 
 }
 .galleryType{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
+    width: 220px;
     height: auto;
 }
 .galleryTypeImg{
-    width: 400px;
-    height: 300px;
+    width: 220px;
+    height: 170px;
 
 }
 .galleryTypeText{

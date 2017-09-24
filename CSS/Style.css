@@ -5,6 +5,7 @@
         margin: 0;
         height: auto;
         font-family: 'Source Sans Pro', sans-serif;
+        min-width: 1080px;
     }
 
     /*ХЕДЕР*/
@@ -29,6 +30,7 @@
         position: absolute;
         height: 100px;
         width: 100%;
+        min-width: 1080px;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -73,27 +75,19 @@
 }
 .rightImg{
     height: 100%;
-    width: 17%;
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -khtml-filter: brightness(80%);
-
+    width: 22%;
 }
 .centerImg>span{
     width: 900px;
     font-weight: 500;
-    text-shadow: 2px 1px 2px rgba(0,0,0,1);
 }
 .white{
-    color: black;
-    text-shadow: 2px 1px 2px rgb(255, 255, 255)!important;
-
+    color: white;
 }
 
 .centerImg{
     height: 100%;
-    min-width: 1280px;
+    min-width: 1080px;
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 25px;
     color: white;
@@ -101,25 +95,17 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -khtml-filter: brightness(80%);
-
 
 }
 .leftImg{
     height: 100%;
-    width: 17%;
-    -webkit-filter: brightness(80%);
-    -moz-filter: brightness(80%);
-    -o-filter: brightness(80%);
-    -khtml-filter: brightness(80%);
+    width: 22%;
+
 
 }
 .img1left{
     background-image: url(../image/headerfonleft.jpg);
-    background-size: 315px 100%;
+    background-size: 420px 100%;
     background-position: center right;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -133,14 +119,14 @@
 }
 .img1right{
     background-image: url(../image/headerfonright.jpg);
-    background-size: 350px 100%;
+    background-size: 420px 100%;
     background-repeat: no-repeat;
     overflow: hidden;
 }
 
 .img2left{
     background-image: url(../image/header2left.jpg);
-    background-size: 315px 100%;
+    background-size: 420px 100%;
     background-position: center right;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -151,14 +137,14 @@
 }
 .img2right{
     background-image: url(../image/header2right.jpg);
-    background-size: 350px 100%;
+    background-size: 420px 100%;
     background-repeat: no-repeat;
     overflow: hidden;
 }
 
 .img3left{
     background-image: url(../image/header3left.jpg);
-    background-size: 315px 100%;
+    background-size: 420px 100%;
     background-position: center right;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -169,7 +155,7 @@
 }
 .img3right{
     background-image: url(../image/header3right.jpg);
-    background-size: 350px 100%;
+    background-size: 420px 100%;
     background-repeat: no-repeat;
     overflow: hidden;
 }
@@ -303,8 +289,9 @@
     /*КОНТЕНТ МАИНПАГЕ*/
     .content {
         display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
         align-items: center;
         height: 55%;
         width: 100%;
@@ -313,25 +300,97 @@
         padding-bottom: 100px;
     }
 
+    .contentBox1{
+        width: 500px;
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        border: solid 0.5px #cdcdcd;
+        border-radius: 3px;
+        background-image: url(../image/production.jpg);
+        background-size: 100% 100%;
+    }
+    .contentBox2{
+        width: 500px;
+        height: 300px;
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        border: solid 0.5px #cdcdcd;
+        border-radius: 3px;
+        background-image: url(../image/work.jpg);
+        background-size: 100% 100%;
+    }
+    .contentBox2inside>a{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        width: inherit;
+        height: 80px;
+        line-height: 80px;
+        background-color: rgba(118, 83, 186, 0.81);
+    }
+    .contentBox1inside>a{
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        text-decoration: none;
+        display: block;
+        width: inherit;
+        height: 80px;
+        line-height: 80px;
+        background-color: rgba(118, 83, 186, 0.81);
+    }
+    .contentBox1inside{
+        width: inherit;
+        height: 80px;
+
+    }
+    .contentBox2inside{
+        width: inherit;
+        height: 80px;
+    }
+    .contentBox2inside>a:hover{
+        cursor: pointer;
+        text-decoration: none;
+        background-color: rgba(0, 0, 0, 0.81);
+        color: rgba(118,83,186,1);
+        -webkit-transition: background-color 1.5s ease;
+        -moz-transition: background-color 1.5s ease;
+        -o-transition: background-color 1.5s ease;
+        -ms-transition: background-color 1.5s ease;
+        transition: background-color 1.5s ease;
+    }
+    .contentBox1inside>a:hover{
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.81);
+        color: rgba(118,83,186,1);
+        -webkit-transition: background-color 1.5s ease;
+        -moz-transition: background-color 1.5s ease;
+        -o-transition: background-color 1.5s ease;
+        -ms-transition: background-color 1.5s ease;
+        transition: background-color 1.5s ease;
+    }
+
     .head {
         color: black;
         width: 900px;
-        text-align: left;
-        margin-top: 1%;
-        margin-bottom: 1%;
+        text-align: center;
         font-size: 22px;
         font-weight: bold;
+        margin: 1% 15%;
 
     }
 
-    .image {
-        background-image: url(../image/content.jpg);
-        width: 900px;
-        height: 200px;
-        background-size: cover;
-        border: solid 0.5px #cdcdcd;
-        border-radius: 3px;
-    }
 
     .frame {
         width: 900px;
@@ -339,11 +398,13 @@
         border: solid 0.5px #cdcdcd;
         border-radius: 3px;
         margin-top: 2%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 
     .text {
         padding: 18px;
-        font-size: 15px;
+        font-size: 16px;
         font-family: 'Source Sans Pro', sans-serif;
 
     }
@@ -358,16 +419,23 @@
         align-items: center;
         height: 4%;
 
+
     }
 
     input {
         padding: 8px;
         width: 170%;
         margin-left: -40%;
-        background-color: rgba(118,83,186,1);;
+        background-color: rgba(118,83,186,1);
         border: none;
         color: white;
         font-size: 16px;
+        -webkit-transition: background-color 1s ease;
+        -moz-transition: background-color 1s ease;
+        -o-transition: background-color 1s ease;
+        -ms-transition: background-color 1s ease;
+        transition: background-color 1s ease;
+        cursor: pointer;
     }
 
     a input:hover {

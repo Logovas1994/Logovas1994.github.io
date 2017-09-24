@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <script type="text/javascript">
+        <!--//<![CDATA[
+        function w_h(){
+            var getw_h = document.getElementById("w_h");
+            if (getw_h != null || getw_h != undefined) {
+                width=document.body.parentElement.clientWidth;
+                height=document.body.parentElement.clientHeight;
+                getw_h.innerHTML =  " "+width+"  &#215; "+ ""+height+"";
+            } else {
+                return false;
+            }
+        };
+        window.onresize = function(){
+            var getw_h = document.getElementById("w_h");
+
+            if (getw_h != null || getw_h != undefined) {
+                width=document.body.parentElement.clientWidth;
+                height=document.body.parentElement.clientHeight;
+                getw_h.innerHTML =  " "+width+"  &#215; "+ ""+height+"";
+            } else {
+                return false;
+            }
+        };
+        $(document).ready(function(){
+            w_h();
+        })
+        //]]>-->
+    </script>
+
+    <title>Redux</title>
+
+    <link href="CSS/Style.css" rel="stylesheet">
+    <link href="CSS/WorkStyle.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <script src="JS/jquery-1.10.2.min.js"></script>
+    <script src="JS/lightbox-2.6.min.js"></script>
+    <link href="CSS/CSSGallery/lightbox.css" rel="stylesheet" />
+
+    <link rel="icon" href="image/man.ico" type="images/x-icon">
+</head>
+<body class="bodywork">
+
+<div class="headerwork">
+    <div class="headerfonwork">
+
+
+        <div class="logo"></div>
+        <div class="menu">
+            <ul class="main-menu">
+                <li><a onclick="fon()" href="index.html">Главная</a></li>
+                <li><a href="About.html">О компании</a></li>
+                <li><a  href="Production.html">Продукция</a></li>
+                <li><a id="work" href="Work.html">Наши работы</a></li>
+                <li><a  href="Contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div class="contentwork">
+
+    <div class="menuWork">
+        <ul>
+            <li><a href="Work.html">Шторы</a>
+                <ul>
+                    <li><a href="Work.html#englishcurtains">Английские шторы</a></li>
+                    <li><a href="Work.html#romecurtains">Римские шторы</a></li>
+                    <li><a href="Work.html#japancurtains">Японские шторы</a></li>
+                </ul>
+            </li>
+            <li><a href="WorkCarnice.html">Карнизы</a>
+                <ul>
+                    <li><a href="WorkCarnice.html#AL">Алюминевые карнизы</a></li>
+                    <li><a href="WorkCarnice.html#wood">Деревянные карнизы</a></li>
+                    <li><a href="WorkCarnice.html#worught">Кованые карнизы</a></li>
+                    <li><a href="WorkCarnice.html#Roof">Потолочные карнизы</a></li>
+                    <li><a href="WorkCarnice.html#String">Струнные карнизы</a></li>
+                </ul>
+            </li>
+            <li><a id="textile" href="WorkTextile.html">Изделия из текстиля</a>
+                <ul>
+                    <li><a href="WorkTextile.html#Pillow">Подушки</a></li>
+                    <li><a href="WorkTextile.html#Overlay">Покрывала</a></li>
+                    <li><a href="WorkTextile.html#Tablecloth">Скатерти</a></li>
+                </ul>
+            </li>
+        </ul>
+
+
+    </div>
+    <div class="menuWorkContent">
+
+        <div class="gallery" id="Pillow">
+            <h1>Подушки</h1>
+            <div class="galleryType" >
+                <div class="galleryTypeImg">
+                    <a href="image/pillow1.jpg" data-lightbox="image-group8" title="Описание изображения 1"><img class="imgsmall" src="image/pillow1.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>Декоративные подушки творят чудеса. Интерьер становится мягче (во всех смыслах), стильнее и индивидуальнее, а жизнь удобнее.</p></div>
+            </div>
+            <div class="galleryType">
+                <div class="galleryTypeImg">
+                    <a href="image/pillow2.jpg" data-lightbox="image-group8" title="Описание изображения 2"><img class="imgsmall" src="image/pillow2.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>Новые декоративные подушки — или даже просто новые чехлы на них — помогут быстро и недорого освежить комнату. А менять их можно хоть каждый день.</p></div>
+            </div>
+        </div>
+
+        <div class="gallery" id="Overlay">
+            <h1>Покрывала</h1>
+            <div class="galleryType" >
+                <div class="galleryTypeImg">
+                    <a href="image/overlay1.jpg" data-lightbox="image-group9" title="Описание изображения 1"><img class="imgsmall" src="image/overlay1.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p> Богатое разнообразие декоративных покрывал и наволочек сделают Вашу спальню неповторимой.</p></div>
+            </div>
+            <div class="galleryType">
+                <div class="galleryTypeImg">
+                    <a href="image/overlay2.jpg" data-lightbox="image-group9" title="Описание изображения 2"><img class="imgsmall" src="image/overlay2.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>Покрывала различных цветов из велюра, сатина и шелка с жаккардовой отделкой станут прекрасным дополнением к современному интерьеру Вашей спальни.</p></div>
+            </div>
+        </div>
+
+        <div class="gallery" id="Tablecloth">
+            <h1>Скатерти</h1>
+            <div class="galleryType" >
+                <div class="galleryTypeImg">
+                    <a href="image/tablecloth1.jpg" data-lightbox="image-group10" title="Описание изображения 1"><img class="imgsmall" src="image/tablecloth1.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>Элитные ткани, аксессуары и дизайнерский покрой скатерти превратят самый обычный стол в яркий элемент дизайна и расскажут Вашим гостям о достатке и тонком вкусе хозяина дома.</p></div>
+            </div>
+            <div class="galleryType">
+                <div class="galleryTypeImg">
+                    <a href="image/tablecloth2.jpg" data-lightbox="image-group10" title="Описание изображения 2"><img class="imgsmall" src="image/tablecloth2.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>Для пошива дизайнерских скатертей используются самые различные материалы: от прекрасного, в своей естественности, льна или хлопка и до роскошных и торжественных тканей, таких как бархат или тафта.</p></div>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div class="footerwork">
+
+    <div class="logofooter"></div>
+    <div class="address">Санкт-Петербург, наб. канала Грибоедова 5, оф. 13.<br>+7 978 15 15 633</div>
+
+
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+    <script type="text/javascript">
+        <!--//<![CDATA[
+        function w_h(){
+            var getw_h = document.getElementById("w_h");
+            if (getw_h != null || getw_h != undefined) {
+                width=document.body.parentElement.clientWidth;
+                height=document.body.parentElement.clientHeight;
+                getw_h.innerHTML =  " "+width+"  &#215; "+ ""+height+"";
+            } else {
+                return false;
+            }
+        };
+        window.onresize = function(){
+            var getw_h = document.getElementById("w_h");
+
+            if (getw_h != null || getw_h != undefined) {
+                width=document.body.parentElement.clientWidth;
+                height=document.body.parentElement.clientHeight;
+                getw_h.innerHTML =  " "+width+"  &#215; "+ ""+height+"";
+            } else {
+                return false;
+            }
+        };
+        $(document).ready(function(){
+            w_h();
+        })
+        //]]>-->
+    </script>
+
+    <title>Redux</title>
+
+    <link href="CSS/Style.css" rel="stylesheet">
+    <link href="CSS/WorkStyle.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <script src="JS/jquery-1.10.2.min.js"></script>
+    <script src="JS/lightbox-2.6.min.js"></script>
+    <link href="CSS/CSSGallery/lightbox.css" rel="stylesheet" />
+
+    <link rel="icon" href="image/man.ico" type="images/x-icon">
+</head>
+<body class="bodywork">
+
+<div class="headerwork">
+    <div class="headerfonwork">
+
+
+        <div class="logo"></div>
+        <div class="menu">
+            <ul class="main-menu">
+                <li><a onclick="fon()" href="index.html">Главная</a></li>
+                <li><a href="About.html">О компании</a></li>
+                <li><a  href="Production.html">Продукция</a></li>
+                <li><a id="work" href="Work.html">Наши работы</a></li>
+                <li><a  href="Contact.html">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<div class="contentwork">
+
+    <div class="menuWork">
+        <ul>
+            <li><a href="Work.html">Шторы</a>
+                <ul>
+                    <li><a href="Work.html#englishcurtains">Английские шторы</a></li>
+                    <li><a href="Work.html#romecurtains">Римские шторы</a></li>
+                    <li><a href="Work.html#japancurtains">Японские шторы</a></li>
+                </ul>
+            </li>
+            <li><a id="carnice" href="WorkCarnice.html">Карнизы</a>
+                <ul>
+                    <li><a href="WorkCarnice.html#AL">Алюминевые карнизы</a></li>
+                    <li><a href="WorkCarnice.html#wood">Деревянные карнизы</a></li>
+                    <li><a href="WorkCarnice.html#worught">Кованые карнизы</a></li>
+                    <li><a href="WorkCarnice.html#Roof">Потолочные карнизы</a></li>
+                    <li><a href="WorkCarnice.html#String">Струнные карнизы</a></li>
+                </ul>
+            </li>
+            <li><a href="WorkTextile.html">Изделия из текстиля</a>
+                <ul>
+                    <li><a href="WorkTextile.html#Pillow">Подушки</a></li>
+                    <li><a href="WorkTextile.html#Overlay">Покрывала</a></li>
+                    <li><a href="WorkTextile.html#Tablecloth">Скатерти</a></li>
+                </ul>
+            </li>
+        </ul>
+
+
+    </div>
+    <div class="menuWorkContent">
+
+
+        <div class="gallery" id="wood">
+            <h1>Деревянные карнизы</h1>
+            <div class="galleryType" >
+                <div class="galleryTypeImg">
+                    <a href="image/wood1.jpg" data-lightbox="image-group3" title="Описание изображения 1"><img class="imgsmall" src="image/wood1.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>  </p></div>
+            </div>
+            <div class="galleryType">
+                <div class="galleryTypeImg">
+                    <a href="image/wood2.jpg" data-lightbox="image-group3" title="Описание изображения 2"><img class="imgsmall" src="image/wood2.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>  </p></div>
+            </div>
+        </div>
+
+        <div class="gallery" id="AL">
+            <h1>Алюминивые карнизы</h1>
+            <div class="galleryType" >
+                <div class="galleryTypeImg">
+                    <a href="image/alumcarnice1.jpg" data-lightbox="image-group4" title="Описание изображения 1"><img class="imgsmall" src="image/alumcarnice1.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>Алюминиевые карнизы без преувеличения можно назвать универсальными и обладающими целым рядом достоинств. Устройство изделия позволяет осуществлять монтаж карниза на стену, либо на потолок.</p></div>
+            </div>
+            <div class="galleryType">
+                <div class="galleryTypeImg">
+                    <a href="image/alumcarnice2.jpg" data-lightbox="image-group4" title="Описание изображения 2"><img class="imgsmall" src="image/alumcarnice2.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>У таких карнизов существует два способа сборки штор – раздвижной, либо подъемный. Длина изделия может доходить до 6 метров.</p></div>
+            </div>
+        </div>
+
+        <div class="gallery" id="worught">
+            <h1>Кованые карнизы</h1>
+            <div class="galleryType" >
+                <div class="galleryTypeImg">
+                    <a href="image/worought1.jpg" data-lightbox="image-group5" title="Описание изображения 1"><img class="imgsmall" src="image/worought1.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>Кованые карнизы – кропотливая ручная работа профессиональных мастеров, поэтому каждый карниз кованый неповторимое произведение искусства. Данные карнизы привносят в дизайн частицу респектабельности и роскоши, благородства и комфорта.  </p></div>
+            </div>
+            <div class="galleryType">
+                <div class="galleryTypeImg">
+                    <a href="image/worought2.jpg" data-lightbox="image-group5" title="Описание изображения 2"><img class="imgsmall" src="image/worought2.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>Основой декоративных карнизов кованых служит круглый металлический стержень, различного диаметра. Особую изящность и индивидуальность им придают кованые детали. Ажурные головы животных, витиеватые растения, причудливые завитки украсят и преобразят любое помещение.</p></div>
+            </div>
+        </div>
+
+        <div class="gallery" id="String">
+            <h1>Струнные карнизы</h1>
+            <div class="galleryType" >
+                <div class="galleryTypeImg">
+                    <a href="image/string1.jpg" data-lightbox="image-group6" title="Описание изображения 1"><img class="imgsmall" src="image/string1.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>Струнные карнизы востребованы теперь при оформлении интерьера в стиле минимализм или любимый многими хай-тек. Струнный карниз сегодня не просто реанимировали, а вдохнули в него в некотором роде вторую жизнь.</p></div>
+            </div>
+            <div class="galleryType">
+                <div class="galleryTypeImg">
+                    <a href="image/string2.jpeg" data-lightbox="image-group6" title="Описание изображения 2"><img class="imgsmall" src="image/string2.jpeg"></a>
+                </div>
+                <div class="galleryTypeText"><p>Конструкция этого карниза очень проста. Основной элемент – струна (иногда две или три). Ее диаметр составляет несколько миллиметров, а вот длина бывает разной.</p></div>
+            </div>
+        </div>
+
+        <div class="gallery" id="Roof">
+            <h1>Потолочные карнизы</h1>
+            <div class="galleryType" >
+                <div class="galleryTypeImg">
+                    <a href="image/roof1.jpg" data-lightbox="image-group7" title="Описание изображения 1"><img class="imgsmall" src="image/roof1.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>Потолочные карнизы панельного типа. Отлично подходит как вариант скрытого карниза.</p></div>
+            </div>
+            <div class="galleryType">
+                <div class="galleryTypeImg">
+                    <a href="image/roof2.jpg" data-lightbox="image-group7" title="Описание изображения 2"><img class="imgsmall" src="image/roof2.jpg"></a>
+                </div>
+                <div class="galleryTypeText"><p>Потолочные карнизы реечного типа. Сделаны из металла, более крепкая алтернатива панельному типу.</p></div>
+            </div>
+            <div class="galleryBorder"></div>
+        </div>
+
+
+    </div>
+</div>
+<div class="footerwork">
+
+    <div class="logofooter"></div>
+    <div class="address">Санкт-Петербург, наб. канала Грибоедова 5, оф. 13.<br>+7 978 15 15 633</div>
+
+
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
